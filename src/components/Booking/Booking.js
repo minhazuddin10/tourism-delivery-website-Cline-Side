@@ -21,7 +21,7 @@ const Booking = () => {
     const numberRef = useRef();
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${serviceId}`;
+        const url = `https://salty-bayou-21965.herokuapp.com/${serviceId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
@@ -38,7 +38,7 @@ const Booking = () => {
         const number = numberRef.current.value;
         const addNewBooking = { name, email, serviceName, locationName, price, date, number };
 
-        fetch(("http://localhost:5000/orders"), {
+        fetch(("https://salty-bayou-21965.herokuapp.com/orders"), {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

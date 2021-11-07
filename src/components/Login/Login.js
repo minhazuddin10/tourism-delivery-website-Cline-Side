@@ -20,10 +20,7 @@ const Login = () => {
     return (
         <>
             <div className="from-filed">
-                <div className="text-center py-4">
-                    <p className="text-danger fw-bold"><i className="fas fa-grip-lines"> EXPLORE GREAT PLACES</i> </p>
-                    <h1 className="services-header">Please Login</h1>
-                </div>
+                    <h1 className="text-center py-4 services-header">Please Login</h1>
                 <form className="login-from">
                     <div className="mb-3 mx-auto">
                         <input className="field" type="email" placeholder="Email*" required />
