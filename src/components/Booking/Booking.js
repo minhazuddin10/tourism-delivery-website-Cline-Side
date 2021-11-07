@@ -21,7 +21,7 @@ const Booking = () => {
     const numberRef = useRef();
 
     useEffect(() => {
-        const url = `https://possessed-castle-52693.herokuapp.com/services/${serviceId}`;
+        const url = `http://localhost:5000/services/${serviceId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
@@ -38,7 +38,7 @@ const Booking = () => {
         const number = numberRef.current.value;
         const addNewBooking = { name, email, serviceName, locationName, price, date, number };
 
-        fetch(("https://possessed-castle-52693.herokuapp.com/orders"), {
+        fetch(("http://localhost:5000/orders"), {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -6,7 +6,7 @@ const ManageAllOrders = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch("https://possessed-castle-52693.herokuapp.com/orders")
+        fetch("http://localhost:5000/orders")
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])
@@ -14,7 +14,7 @@ const ManageAllOrders = () => {
     const handleDeleteOrder = id => {
         const proceed = window.confirm("Are you sure, you want to your client order Delete?");
         if (proceed) {
-            const url = `https://possessed-castle-52693.herokuapp.com/orders/${id}`;
+            const url = `http://localhost:5000/orders/${id}`;
             fetch(url, {
                 method: "DELETE",
             })

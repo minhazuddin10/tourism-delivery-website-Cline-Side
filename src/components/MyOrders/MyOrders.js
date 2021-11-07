@@ -9,14 +9,14 @@ const MyOrders = () => {
     console.log(myOrders);
 
     useEffect(() => {
-        fetch("https://possessed-castle-52693.herokuapp.com/orders")
+        fetch("http://localhost:5000/orders")
             .then(res => res.json())
             .then(data => setMyOrders(data))
     }, []);
     const handleDeleteOrder = id => {
         const proceed = window.confirm("Are you sure, you want your order Deleted?");
         if (proceed) {
-            const url = `https://possessed-castle-52693.herokuapp.com/orders/${id}`;
+            const url = `http://localhost:5000/orders/${id}`;
             fetch(url, {
                 method: "DELETE",
             })
