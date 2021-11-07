@@ -11,7 +11,7 @@ const Menu = () => {
         <>
             <Navbar bg="white" variant="light" sticky="top" collapseOnSelect expand="lg" >
                 <Container>
-                    <Navbar.Brand className="fw-bold fs-3 text-secondary" href="/home"><img src="https://i.im.ge/2021/10/31/owDAH6.png" className="menu-icon" alt="" /> Travele BD</Navbar.Brand>
+                    <Navbar.Brand className="fw-bold fs-3 text-secondary" href="/home"><img src="https://i.ibb.co/551cdQz/imgbin-flight-air-travel-travel-agent-computer-icons-travel-cbdb-S97r-H2ij4-PKd-DNWCs-Si-Nz-removebg.png" className="menu-icon" alt="" /> Travel Agent</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="fw-bold justify-content-end">
                         <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
@@ -40,5 +40,5 @@ const Menu = () => {
 export default Menu;
 
 /*
-
+<a href="https://imgbb.com/"><img src="" alt="imgbin-flight-air-travel-travel-agent-computer-icons-travel-cbdb-S97r-H2ij4-PKd-DNWCs-Si-Nz-removebg" border="0"></a>
 */

@@ -1,25 +1,5 @@
 .footer-bg {
-    background: #383838;
-}
-.footer-about {
-    letter-spacing: 1px;
-    font-size: 12px;
-    opacity: 0.8;
-}
-.about-icon {
-    font-size: 50px;
-    margin-left: 20px;
-}
-.about-icon:hover {
-    color: cadetblue;
-    cursor: pointer;
-}
-.footer-info span:hover {
-    color: cadetblue;
-    cursor: pointer;
-}
-.info-icon {
-    font-size: 20px;
+    background: black;
 }
 .footer-subscribe input {
     border: none;
@@ -35,7 +15,4 @@
 }
 .footer-btn:hover {
     background: salmon;
-}
-.footer-down {
-    background: #d8d8d8;
 }

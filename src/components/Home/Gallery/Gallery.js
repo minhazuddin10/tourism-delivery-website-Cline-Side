@@ -5,16 +5,13 @@ import './Gallery.css';
 const Gallery = () => {
     return (
         <>
-            <div className="text-center py-4">
-                <p className="text-danger fw-bold"><i className="fas fa-grip-lines"> POPULAR DESTINATION</i> </p>
-                <h1 className="services-header">TOP NOTCH DESTINATION</h1>
-            </div>
+                <h1 className="text-center py-4 services-header">TOP NOTCH DESTINATION</h1>
             <Container className="pb-5">
                 <Row>
-                    <img src="https://i.im.ge/2021/10/30/omKxzJ.jpg" className="w-25" alt="" />
-                    <img src="https://i.im.ge/2021/10/30/omKYOy.jpg" className="w-25" alt="" />
-                    <img src="https://i.im.ge/2021/10/30/omKEya.jpg" className="w-25" alt="" />
-                    <img src="https://i.im.ge/2021/10/30/omKbmS.jpg" className="w-25" alt="" />
+                    <img src="https://i.ibb.co/QnjBhjP/sajek.jpg" className="w-25" alt="" />
+                    <img src="https://i.ibb.co/mDn3Fst/Sent-Martin-Island.jpg" className="w-25" alt="" />
+                    <img src="https://i.ibb.co/yF50f48/sundarban.jpg" className="w-25" alt="" />
+                    <img src="https://i.ibb.co/0YW6sX5/bandarban.jpg" className="w-25" alt="" />
                 </Row>
             </Container>
         </>
@@ -22,10 +19,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
-/*
 
-
-
-
-
-*/

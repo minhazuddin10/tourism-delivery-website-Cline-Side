@@ -56,10 +56,7 @@ const Booking = () => {
     };
     return (
         <>
-            <div className="text-center py-4">
-                <p className="text-danger fw-bold"><i className="fas fa-grip-lines"> TRAVEL OFFER & DISCOUNT</i> </p>
-                <h1 className="services-header">Booking & Detail</h1>
-            </div>
+                <h1 className="text-center py-4 services-header">Booking & Detail</h1>
             <Container>
                 <Row xs={1} md={2}>
                     <Col>

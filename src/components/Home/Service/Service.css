@@ -1,10 +1,11 @@
+.services-card:hover{
+background: rgb(157, 190, 181);
+color: white;
+}
 .btn-service {
     border: none;
-    background: lightblue;
+    background: rgb(41, 170, 212);
     padding: 10px 15px;
     font-size: 15px;
     text-transform: uppercase;
-}
-.btn-service:hover {
-    background: salmon;
 }

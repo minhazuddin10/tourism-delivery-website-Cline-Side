@@ -24,10 +24,7 @@ const AddService = () => {
     };
     return (
         <>
-            <div className="text-center py-4">
-                <p className="text-danger fw-bold"><i className="fas fa-grip-lines"> ADMIN DASHBOARD</i> </p>
-                <h1 className="services-header">Add Service</h1>
-            </div>
+                <h1 className="text-center py-4 services-header">Add Service</h1>
             <Container>
                 <form onSubmit={handleSubmit(handleServiceAdd)} className="addService-form mx-auto w-50 py-3 mb-4">
                     <input {...register("name")} placeholder="Tourist place*" />

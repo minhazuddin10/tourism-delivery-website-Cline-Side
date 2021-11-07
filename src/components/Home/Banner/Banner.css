@@ -1,5 +1,5 @@
 .banner-bg {
-    background-image:url("https://i.im.ge/2021/10/30/omKVaX.jpg") ;
+    background-image:url("https://i.ibb.co/0DWFKsL/banner-bg.jpg") ;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
@@ -16,12 +16,9 @@
 }
 .btn-style {
     border: none;
-    background: lightblue;
+    background: rgb(236, 222, 25);
     padding: 15px 20px;
     font-size: 20px;
     text-transform: uppercase;
-}
-.btn-style:hover {
-    background: salmon;
 }
   
