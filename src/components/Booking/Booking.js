@@ -21,7 +21,7 @@ const Booking = () => {
     const numberRef = useRef();
 
     useEffect(() => {
-        const url = `https://salty-bayou-21965.herokuapp.com/services${serviceId}`;
+        const url = `https://salty-bayou-21965.herokuapp.com/services/${serviceId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setService(data))
